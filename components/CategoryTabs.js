@@ -6,8 +6,9 @@ export default function CategoryTabs() {
         <View style={styles.box}>
             <Image source={require('../assets/Apple_Logo.jpg')} style = {styles.icon} />
         </View>
-        <View style={styles.box}>
-            <Text style = {styles.boxText}>All</Text>
+        <View style={[styles.box, { backgroundColor: 'green' }]}>
+            <Text style={styles.boxText}>All</Text>
+
         </View>
         <View style={styles.box}>
             <Text style = {styles.boxText}>Music</Text>

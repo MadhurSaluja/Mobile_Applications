@@ -6,19 +6,19 @@ export default function RecentsSection() {
       <View style={styles.container}>
         <View style={styles.row}>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover1.jpeg')} style={styles.image}>
                     <Text style={styles.heading}>Pop Mix</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text>
             </View>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover2.jpg')} style={styles.image}>
                     <Text style={styles.heading}>Hot Hits</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text>
             </View>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover3.jpg')} style={styles.image}>
                     <Text style={styles.heading}>Upbeat Mix</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text>
@@ -27,19 +27,19 @@ export default function RecentsSection() {
         </View>
         <View style={styles.row}>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover4.png')} style={styles.image}>
                     <Text style={styles.heading}>Daily Wellness</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text>
             </View>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover5.jpg')} style={styles.image}>
                     <Text style={styles.heading}>HipHop Canada</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text> 
             </View>
             <View style={styles.card}>
-                <ImageBackground source={require('../assets/Music_Logo.png')} style={styles.image}>
+                <ImageBackground source={require('../assets/M_cover6.jpg')} style={styles.image}>
                     <Text style={styles.heading}>80s Hard Rock</Text>
                 </ImageBackground>
             <Text style={styles.foot}>Playlist         User 1</Text>
